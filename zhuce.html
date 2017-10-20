@@ -209,11 +209,17 @@
         code1.val(codes);
     }
     change();
-    code.click(change);
-    code1.click(change);
-    $(".c-y-shuaxin").click(change)
+    code.on("click",function () {
+        change();
+    })
+    code1.on("click",function () {
+        change();
+    })
+    $(".c-y-shuaxin").on("click",function(){
+        change();
+    })
     $(".c-shuaxin").click(change)
-    $(".c-y-toubu img").click(function () {
+    $(".c-y-toubu img").on("click",function () {
         window.history.go(-1);
     })
 </script>

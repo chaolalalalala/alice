@@ -303,7 +303,7 @@
         })
     })
     $(".c-gr").each(function(i,v){
-        $(this).click(function () {
+        $(this).on("click",function () {
             $(this).addClass("c-active1").siblings().removeClass("c-active1")
             if(i==0){
                 $(".c-beijing").css({background:"url('img/c-1.jpg')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
@@ -318,7 +318,7 @@
         })
     })
     $(".c-y-dx").each(function (i, v) {
-        $(this).click(function () {
+        $(this).on("click",function () {
             $(this).addClass("c-y-active").siblings().removeClass("c-y-active");
             if (i == 0) {
                 $("#form-y").hide();
@@ -330,15 +330,15 @@
             }
         })
     })
-    $("#c-y-qiye").click(function () {
+    $("#c-y-qiye").on("click",function () {
         $(".c-y-qiye").show();
         $(".c-y-geren").hide()
     })
-    $("#c-y-gerem").click(function () {
+    $("#c-y-gerem").on("click",function () {
         $(".c-y-qiye").hide();
         $(".c-y-geren").show()
     })
-    $(".c-y-toubu img").click(function () {
+    $(".c-y-toubu img").on("click",function () {
         window.history.go(-1);
     })
 </script>
