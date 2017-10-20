@@ -55,7 +55,7 @@
     </style>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid" style="padding: 0">
     <div class="row-fluid">
         <div class="col-sm-12 col-md-12 col-lg-12 cc">
             <div class="c-toubu">
@@ -183,6 +183,7 @@
 </div>
 </body>
 <script>
+
 //    验证码
     function change(){
     var code=$("#code");
@@ -207,11 +208,14 @@
     code.val(codes);
         code1.val(codes);
     }
+window.onload=function () {
+    change()
+}
     change();
-    code.on("click",function () {
+$("#code").on("click",function () {
         change();
     })
-    code1.on("click",function () {
+$("#code-y").on("click",function () {
         change();
     })
     $(".c-y-shuaxin").on("click",function(){
