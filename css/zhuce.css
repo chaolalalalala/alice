@@ -1,0 +1,470 @@
+body,html{
+    width: 100%;
+    height:100%;
+}
+body{
+    background: #F5F5F5;
+}
+.c-beijing{
+    width: 100%;
+    position: fixed;
+    top:70px;
+    bottom: 0;
+    background: url("../img/c-6.png");
+    background-size: 100% 75%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.c-toubu{
+    width: 100%;
+    height:70px;
+    background: #000000;
+}
+.c-logo{
+    float: left;
+    width: 145px;
+    height:40px;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.c-zi{
+    width: auto;
+    height:100%;
+    line-height: 70px;
+    float: left;
+}
+.c-zi span:nth-child(1){
+    font-size: 14px;
+    width: 48px;
+    height:15px;
+    display: block;
+    border-right: 1px solid #fff;
+    line-height: 15px;
+    color: #fff;
+    font-family: 微软雅黑;
+    margin-top: 27px;
+    text-align: center;
+    float: left;
+}
+.c-zi span:nth-child(2){
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: 48px;
+    height:15px;
+    display: block;
+    line-height: 15px;
+    color: #ABABAB;
+    font-family: 微软雅黑;
+    margin-top: 27px;
+}
+.c-zuce{
+    width: 58px;
+    height:28px;
+    border:1px solid #fff;
+    margin-top: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 80px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    float: right;
+    border-radius: 8px;
+}
+.c-denglu{
+    width: 58px;
+    height:28px;
+    margin-right: 20px;
+    margin-top: 21px;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    float: right;
+    border-radius: 8px;
+}
+.c-denglu a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.c-huo{
+    margin-right: 145px;
+    width: 65px;
+    height:100%;
+    color: #fff;
+    line-height: 70px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    float: right;
+    position: relative;
+}
+.c-jiantou{
+    width: 12px;
+    height:12px;
+    position: absolute;
+    right:0;
+    top:29px;
+}
+.c-bang{
+    margin-right: 50px;
+    width: auto;
+    height:100%;
+    color: #fff;
+    line-height: 70px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    float: right;
+}
+.c-gg{
+    width: 478px;
+    height:90px;
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+.c-g1{
+    width: 100%;
+    height:16px;
+    padding: 0 85px;
+}
+.c-g1-1{
+    width: 96px;
+    height:100%;
+    border-right: 1px solid #939494;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 16px;
+    float: left;
+}
+.c-g2{
+    font-family: Arial;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 36px;
+}
+.c-zck{
+    width: 380px;
+    height:396px;
+    position: absolute;
+    top:14%;
+    right:21%;
+    padding: 40px 30px 0 30px;
+}
+.touming{
+    background: #F5F5F5;
+    -webkit-opacity: 0.9;
+    /* Netscape and Older than Firefox 0.9 */
+    -moz-opacity: 0.9;
+    /* Safari 1.x (pre WebKit!) 老式khtml内核的Safari浏览器*/
+    -khtml-opacity: 0.9;
+    /* IE9 + etc...modern browsers */
+    opacity: .9;
+    /* IE 4-9 */
+    filter:alpha(opacity=90);
+    /*This works in IE 8 & 9 too*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    /*IE4-IE9*/
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    border-radius: 10px;
+    z-index: -1;
+}
+#form{
+    width: 100%;
+    height:auto;
+}
+.d-kuang{
+    width: 100%;
+    height:40px;
+    border-radius: 8px;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 20px;
+    position: relative;
+}
+.d-kuang span{
+    width: auto;
+    height:100%;
+    display: block;
+    top:0;
+    left: 10px;
+    position: absolute;
+    line-height: 40px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.d-kuang input{
+    width: 190px;
+    height:100%;
+    position: absolute;
+    left: 85px;
+    top:0;
+    display: block;
+    border:0;
+    background-color: transparent;
+}
+.c-mima{
+    width: 16px;
+    height:16px;
+    position: absolute;
+    right: 11px;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.c-shuaxin{
+    width: 16px;
+    height:16px;
+    position: absolute;
+    right: 11px;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.d-kuang .c-yanz{
+    width: 95px;
+}
+.d-kuang>#code{
+    width: 87px;
+    height:29px;
+    background: #F7ECD3;
+    color: #3B7FE1;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    display: block;
+}
+.d-kuang .c-sj{
+    width: 116px;
+    height: 30px;
+    color: #3B7FE1;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: 195px;
+    background: #CCD8EC;
+    border-radius: 5px;
+}.d-kuang .c-sjyz{
+     width: 95px;
+ }
+ .c-yd{
+     width: auto;
+     height:28px;
+     line-height: 28px;
+     color: #666666;
+     font-size: 14px;
+     font-family: 微软雅黑;
+ }
+.c-annui{
+    width: 100%;
+    height:40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.c-annui input{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background: #3B7FE1;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    font-size: 20px;
+}
+.c-lanzi{
+    width: 100%;
+    height:auto;
+}
+.c-yiyou{
+    width: auto;
+    height:auto;
+    line-height: 24px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: left;
+    display: block;
+    float: left;
+}
+.c-zc{
+    width: auto;
+    height:auto;
+    line-height: 24px;
+    color: #3B7FE1;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: left;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+.c-yjt{
+    width: 24px;
+    height:24px;
+    display: block;
+    float: right;
+}
+.c-zc a{
+    text-decoration: none;
+    color: #3B7FE1;
+}
+.c-y-zhuce{
+    width: 100%;
+    height:100%;
+    padding: 0 0.3rem;
+}
+.c-y-toubu{
+    width: 100%;
+    height:1.1rem;
+    position: relative;
+    font-size: 0.42rem;
+    color: #222222;
+    font-family: PingFang-SC-Bold;
+    text-align: center;
+    line-height: 1.1rem;
+    margin-bottom: 0.1rem;
+}
+.c-y-toubu img{
+    width:0.3rem;
+    height:0.3rem;
+    display: block;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.c-y-zck{
+    width: 100%;
+    height:auto;
+    margin-top: 0.26rem;
+}
+#form-y{
+    width: 100%;
+    height:auto;
+}
+.d-y-kuang{
+    width: 100%;
+    height:0.9rem;
+    border-bottom: 0.01rem solid #D7D7D7;
+    margin-bottom: 0.42rem;
+    position: relative;
+}
+.d-y-kuang span{
+    width: auto;
+    height:100%;
+    display: block;
+    line-height: 0.9rem;
+    position: absolute;
+    left: 0.2rem;
+    font-size: 0.3rem;
+    color: #666666;
+    font-family: PingFang-SC-Regular;
+}
+.d-y-kuang input{
+    width: 4.35rem;
+    height:100%;
+    position: absolute;
+    left: 1.7rem;
+    top:0;
+    font-size: 0.3rem;
+    color: #666666;
+    font-family: PingFang-SC-Regular;
+    line-height: 0.9rem;
+}
+.d-y-kuang .c-y-yanz{
+    width: 2.3rem;
+}
+.d-y-kuang #code-y{
+    width: 1.82rem;
+    height:0.64rem;
+    top:0;
+    bottom:0;
+    left: 4.3rem;
+    margin: auto;
+    font-size: 0.3rem;
+    color: #3b7fe1;
+    font-family: 微软雅黑;
+    line-height: 0.64rem;
+    border-radius: 0.1rem;
+}
+.d-y-kuang .c-y-shuaxin{
+    width: 0.4rem;
+    height:0.4rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0.26rem;
+    margin: auto;
+    display: block;
+}
+.c-y-annui{
+    width: 100%;
+    height:0.9rem;
+    border-radius: 0.1rem;
+    margin-top: 0.68rem;
+}
+.c-y-annui input{
+    width: 100%;
+    height:100%;
+    display: block;
+    border-radius: 0.1rem;
+    background: #3B7FE1;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.42rem;
+    color: #fefefe;
+    font-family: PingFang-SC-Regular;
+}
+.c-y-m{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height:1.3rem;
+    font-size: 0.3rem;
+    color: #999999;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+}
+.c-y-m a{
+    color: #3b7fe1;
+}
+.c-y-m a:hover{
+    color: #3b7fe1;
+    text-decoration: none;
+}
+.d-y-kuang .c-y-sjyz{
+    width: 2.3rem;
+}
+.d-y-kuang .c-sj{
+    width: 2.45rem;
+    height:0.69rem;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    color: #3B7FE1;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 4.3rem;
+    margin: auto;
+    background: #D8E5F9;
+    border-radius: 0.1rem;
+}

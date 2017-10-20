@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/rem.js"></script>
+    <style>
+        @media screen and (min-width: 768px) {
+            .cc{
+                display: block;
+            }
+            .dd{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .dd{
+                display: block;
+            }
+            .cc{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .c-huo{
+                margin-right: 50px;
+            }
+            .c-bang{
+                margin-right: 30px;
+            }
+            .c-logo{
+                margin-right: 30px;
+                margin-left: 50px;
+            }
+        }
+        .container-fluid{
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .row-fluid{
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .cc{
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-sm-12 col-md-12 col-lg-12 cc">
+            <div class="c-toubu">
+                <div class="c-logo">
+                    <img src="img/c-logo.png" alt="">
+                </div>
+                <div class="c-zi">
+                    <span>中文</span>
+                    <span>English</span>
+                </div>
+                <div class="c-zuce">
+                    <a href="zhuce.html"  style="color:#fff">注册</a>
+                </div>
+                <div class="c-denglu">
+                    登录
+                </div>
+                <div class="c-huo">
+                    货查查
+                    <div class="c-jiantou">
+                        <img src="img/c-2.png" alt="">
+                    </div>
+                </div>
+                <div class="c-bang">
+                    帮帮运
+                </div>
+                <div class="c-bang">
+                    首页
+                </div>
+            </div>
+            <div class="c-beijing">
+                <div class="c-dlk">
+                    <div class="butouming" style="display: block">
+                        <div class="c-dlt">
+                            <div class="dlfs">
+                                短信密码登录
+                            </div>
+                            <div class="dlfs c-active">
+                                账号密码登录
+                            </div>
+                        </div>
+                        <form action="" id="form" >
+                            <div class="c-zhanghao">
+                                <span>账号</span>
+                                <input type="text" style="background-color: transparent; box-shadow: none">
+                                <img src="img/c-3.png" alt="">
+                            </div>
+                            <div class="c-mima">
+                                <span>密码</span>
+                                <input type="password" style="background-color: transparent; box-shadow: none">
+                                <img src="img/c-4.png" alt="">
+                            </div>
+                            <div class="c-wj">
+                                <input type="checkbox">
+                                <span class="c-zidong">7天内自动登录</span>
+                                <span class="c-wangji"><a href="#" style="color:#F0F0F0;">忘记密码?</a></span>
+                            </div>
+                            <div class="c-annui">
+                                <input type="button" value="登录">
+                            </div>
+                            <div class="c-mei">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+                        <form action="" id="form12" style="display: none">
+                            <div class="c-zhanghao">
+                                <span style="width: 60px">手机号</span>
+                                <input type="text" style="width: 200px;background-color: transparent; box-shadow: none">
+                                <input type="button" value="获取验证码" style="width:126px;height: 40px;text-align: center;line-height: 40px;font-family: 微软雅黑;color: #FEFEFE;float: right;margin-top: 10px;border-radius: 10px;background: #919193">
+                            </div>
+                            <div class="c-mima">
+                                <span style="width: 60px">验证码</span>
+                                <input type="password" style="background-color: transparent; box-shadow: none">
+                            </div>
+                            <div class="c-annui" style="margin-top: 60px">
+                                <input type="button" value="登录">
+                            </div>
+                            <div class="c-mei">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+
+                        <div class="c-dly" style="width: 500px;height:500px;position: absolute;left: 0;top:0;z-index: -1"></div>
+                    </div >
+                    <div class="c-qiye" style="display: none">
+                        <div class="c-lanzi">
+                            在线获客接单、累积信用额度，快来加入吧！
+                        </div>
+                        <form action="" id="form1">
+                            <div class="c-zhanghao">
+                                <span style="width: 68px">企业代码</span>
+                                <input type="text" style="background-color: transparent; box-shadow: none">
+                            </div>
+                            <div class="c-mima">
+                                <span>密码</span>
+                                <input type="password" style="background-color: transparent; box-shadow: none;margin-left: 43px">
+                            </div>
+                            <div class="c-wj">
+                                <input type="checkbox">
+                                <span class="c-zidong">7天内自动登录</span>
+                                <span class="c-wangji"><a href="#" style="color:#3e7fe1;">忘记密码?</a></span>
+                            </div>
+                            <div class="c-annui">
+                                <input type="button" value="登录">
+                            </div>
+                            <div class="c-mei">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="c-geren">
+                        <div class="c-touming">
+                        </div>
+                        <div class="c-gr c-active1">
+                            个人登录
+                        </div>
+                        <div class="c-gr">
+                            企业登录
+                        </div>
+                    </div>
+                </div>
+                <div class="c-gg">
+                    <div class="c-g1">
+                        <div class="c-g1-1">
+                            关于箱训
+                        </div>
+                        <div class="c-g1-1">
+                            广告投放
+                        </div>
+                        <div class="c-g1-1" style="border-right: 0">
+                            网站导航
+                        </div>
+                    </div>
+                    <div class="c-g2">
+                        Copyright© 2015 Xiangxun Network.All Rights Reserved , 苏ICP备150
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 dd">
+            <div class="c-y-geren" style="display: block">
+                <div class="c-y-toubu">
+                    <img src="img/c-11.png" alt="">
+                    个人登录
+                </div>
+                <div class="c-y-dl">
+                    <span class="c-y-dx c-y-active">
+                        短信密码登录
+                        <div class="c-y-x"></div>
+                    </span>
+                    <span class="c-y-dx">
+                        账号密码登录
+                        <div class="c-y-x"></div>
+                    </span>
+                </div>
+                <form action="" id="form-y2">
+                    <div class="c-y-zhanghao">
+                        <span>手机号</span>
+                        <input type="text" style="background-color: transparent; box-shadow: none;width: 3.4rem">
+                        <input type="button" class="c-sj" value="获取验证码">
+                    </div>
+                    <div class="c-y-mima">
+                        <span>密码</span>
+                        <input type="password" style="background-color: transparent; box-shadow: none">
+                    </div>
+                    <div class="c-y-annui">
+                        <input type="button" value="登录">
+                    </div>
+                </form>
+                <form action="" id="form-y" style="display: none">
+                    <div class="c-y-zhanghao">
+                        <span>账号</span>
+                        <input type="text" style="background-color: transparent; box-shadow: none">
+                        <img src="img/c-12.png" alt="">
+                    </div>
+                    <div class="c-y-mima">
+                        <span>密码</span>
+                        <input type="password" style="background-color: transparent; box-shadow: none">
+                        <img src="img/c-13.png" alt="">
+                    </div>
+                    <div class="c-y-wj">
+                        <input type="checkbox" style="margin-top: 0.1rem">
+                        <span class="c-y-zidong">7天内自动登录</span>
+                        <span class="c-y-wangji"><a href="#" >忘记密码?</a></span>
+                    </div>
+                    <div class="c-y-annui">
+                        <input type="button" value="登录">
+                    </div>
+                    <div class="c-y-mei">
+                        <a href="#" id="c-y-qiye">登录企业账户</a>
+                    </div>
+                </form>
+                <div class="c-y-m">
+                    还没有账号？<a href="zhuce.html">立即注册>></a>
+                </div>
+            </div>
+            <div class="c-y-qiye" style="display: none">
+                <div class="c-y-toubu">
+                    <img src="img/c-11.png" alt="">
+                    企业登录
+                </div>
+                <form action="" id="form-y1">
+                    <div class="c-y-zhanghao">
+                        <span>企业代码</span>
+                        <input type="text" style="background-color: transparent; box-shadow: none">
+
+                    </div>
+                    <div class="c-y-mima">
+                        <span>密码</span>
+                        <input type="password" style="width: 4.5rem;background-color: transparent; box-shadow: none;margin-left: 0.7rem">
+
+                    </div>
+                    <div class="c-y-wj">
+                        <input type="checkbox" style="margin-top: 0.1rem">
+                        <span class="c-y-zidong">7天内自动登录</span>
+                        <span class="c-y-wangji"><a href="#" >忘记密码?</a></span>
+                    </div>
+                    <div class="c-y-annui">
+                        <input type="button" value="登录">
+                    </div>
+                    <div class="c-y-mei">
+                        <a href="#" id="c-y-gerem">登录个人账户</a>
+                    </div>
+                </form>
+                <div class="c-y-m">
+                    还没有账号？<a href="zhuce.html">立即注册企业账号>></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script>
+    $(".dlfs").each(function (i,v) {
+        $(this).click(function () {
+            $(this).addClass("c-active").siblings().removeClass("c-active")
+            if(i==0){
+                $("#form").hide();
+                $("#form12").show()
+            }
+            if(i==1){
+                $("#form").show();
+                $("#form12").hide()
+            }
+        })
+    })
+    $(".c-gr").each(function(i,v){
+        $(this).click(function () {
+            $(this).addClass("c-active1").siblings().removeClass("c-active1")
+            if(i==0){
+                $(".c-beijing").css({background:"url('img/c-1.jpg')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
+                $(".butouming").show();
+                $(".c-qiye").hide()
+            }
+            if(i==1){
+                $(".c-beijing").css({background:"url('img/c-5.png')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
+                $(".butouming").hide();
+                $(".c-qiye").show()
+            }
+        })
+    })
+    $(".c-y-dx").each(function (i, v) {
+        $(this).click(function () {
+            $(this).addClass("c-y-active").siblings().removeClass("c-y-active");
+            if (i == 0) {
+                $("#form-y").hide();
+                $("#form-y2").show()
+            }
+            if (i == 1) {
+                $("#form-y").show();
+                $("#form-y2").hide()
+            }
+        })
+    })
+    $("#c-y-qiye").click(function () {
+        $(".c-y-qiye").show();
+        $(".c-y-geren").hide()
+    })
+    $("#c-y-gerem").click(function () {
+        $(".c-y-qiye").hide();
+        $(".c-y-geren").show()
+    })
+    $(".c-y-toubu img").click(function () {
+        window.history.go(-1);
+    })
+</script>
+</html>
