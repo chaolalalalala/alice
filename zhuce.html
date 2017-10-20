@@ -183,11 +183,10 @@
 </div>
 </body>
 <script>
-    console.log($("body").width())
 //    验证码
     function change(){
-    code=$("#code");
-    code1=$("#code-y")
+    var code=$("#code");
+        var code1=$("#code-y")
     // 验证码组成库
     var arrays=new Array(
     '1','2','3','4','5','6','7','8','9','0',
@@ -198,7 +197,7 @@
     'K','L','M','N','O','P','Q','R','S','T',
     'U','V','W','X','Y','Z'
     );
-    codes='';// 重新初始化验证码
+    var codes='';// 重新初始化验证码
     for(var i = 0; i<4; i++){
     // 随机获取一个数组的下标
     var r = parseInt(Math.random()*arrays.length);
