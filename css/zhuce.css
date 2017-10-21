@@ -209,7 +209,7 @@ body{
     width: 190px;
     height:100%;
     position: absolute;
-    left: 85px;
+    left: 30px;
     top:0;
     display: block;
     border:0;
@@ -380,7 +380,7 @@ body{
     width: 4.35rem;
     height:100%;
     position: absolute;
-    left: 1.7rem;
+    left: 0.7rem;
     top:0;
     font-size: 0.3rem;
     color: #666666;
@@ -465,4 +465,164 @@ body{
     margin: auto;
     background: #D8E5F9;
     border-radius: 0.1rem;
+}
+
+
+.c-zck1{
+    width: 272px;
+    height:283px;
+    position: absolute;
+    top:14%;
+    right:21%;
+    padding: 28px 21px 0 21px;
+}
+.touming1{
+    background: #F5F5F5;
+    -webkit-opacity: 0.9;
+    /* Netscape and Older than Firefox 0.9 */
+    -moz-opacity: 0.9;
+    /* Safari 1.x (pre WebKit!) 老式khtml内核的Safari浏览器*/
+    -khtml-opacity: 0.9;
+    /* IE9 + etc...modern browsers */
+    opacity: .9;
+    /* IE 4-9 */
+    filter:alpha(opacity=90);
+    /*This works in IE 8 & 9 too*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    /*IE4-IE9*/
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    border-radius: 10px;
+    z-index: -1;
+}
+#form21{
+    width: 100%;
+    height:auto;
+}
+.d-kuang1{
+    width: 100%;
+    height:30px;
+    border-radius: 8px;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 14px;
+    position: relative;
+}
+.d-kuang1 input{
+    width: 190px;
+    height:100%;
+    position: absolute;
+    left: 15px;
+    top:0;
+    display: block;
+    border:0;
+    background-color: transparent;
+}
+.c-mima1{
+    width: 12px;
+    height:12px;
+    position: absolute;
+    right: 9px;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.c-shuaxin1{
+    width: 12px;
+    height:12px;
+    position: absolute;
+    right: 9px;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.d-kuang1 .c-yanz1{
+    width: 95px;
+}
+.d-kuang1>#code21{
+    width: 62px;
+    height:22px;
+    background: url("../img/c-55.png");
+    color: #3B7FE1;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    display: block;
+}
+.d-kuang1 .c-sj1{
+    width: 84px;
+    height: 23px;
+    color: #3B7FE1;
+    font-size: 9px;
+    font-family: 微软雅黑;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: 130px;
+    background: #CCD8EC;
+    border-radius: 5px;
+}
+.d-kuang1 .c-sjyz1{
+     width: 95px;
+ }
+.c-yd1{
+    width: auto;
+    height:14px;
+    line-height: 14px;
+    color: #666666;
+    font-size: 8px;
+    font-family: 微软雅黑;
+}
+.c-annui1{
+    width: 100%;
+    height:28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.c-annui1 input{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background: #3B7FE1;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    display: block;
+    font-size: 14px;
+}
+.c-lanzi1{
+    width: 100%;
+    height:auto;
+}
+.c-yiyou1{
+    width: auto;
+    height:auto;
+    line-height: 12px;
+    color: #666666;
+    font-size: 9px;
+    font-family: 微软雅黑;
+    text-align: left;
+    display: block;
+    float: left;
+}
+.c-zc1{
+    width: auto;
+    height:auto;
+    line-height: 12px;
+    color: #3B7FE1;
+    font-size: 9px;
+    font-family: 微软雅黑;
+    text-align: left;
+    display: block;
+    float: right;
+    margin-right: 5px;
+}
+.c-yjt1{
+    width: 12px;
+    height:12px;
+    display: block;
+    float: right;
+}
+.c-zc1 a{
+    text-decoration: none;
+    color: #3B7FE1;
 }

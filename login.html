@@ -27,6 +27,28 @@
                 display: none;
             }
         }
+        @media screen and (max-width: 1366px) {
+            .c-gg{
+                height:64px;
+            }
+            .c-dlk{
+                display: none;
+            }
+            .c-dlk1{
+                display: block;
+            }
+        }
+        @media screen and (min-width: 1367px) {
+            .c-gg{
+                height:90px;
+            }
+            .c-dlk{
+                display: block;
+            }
+            .c-dlk1{
+                display: none;
+            }
+        }
         @media screen and (max-width: 992px) {
             .c-huo{
                 margin-right: 50px;
@@ -113,7 +135,7 @@
                                 <span class="c-wangji"><a href="#" style="color:#F0F0F0;">忘记密码?</a></span>
                             </div>
                             <div class="c-annui">
-                                <input type="button" value="登录">
+                                <input type="submit" value="登录">
                             </div>
                             <div class="c-mei">
                                 没有账号？<a href="zhuce.html">立即注册>></a>
@@ -121,16 +143,14 @@
                         </form>
                         <form action="" id="form12" style="display: none">
                             <div class="c-zhanghao">
-                                <span style="width: 60px">手机号</span>
-                                <input type="text" style="width: 200px;background-color: transparent; box-shadow: none">
+                                <input type="text" style="width: 200px;background-color: transparent; box-shadow: none" placeholder="手机号">
                                 <input type="button" value="获取验证码" style="width:126px;height: 40px;text-align: center;line-height: 40px;font-family: 微软雅黑;color: #FEFEFE;float: right;margin-top: 10px;border-radius: 10px;background: #919193">
                             </div>
                             <div class="c-mima">
-                                <span style="width: 60px">验证码</span>
-                                <input type="password" style="background-color: transparent; box-shadow: none">
+                                <input type="password" style="background-color: transparent; box-shadow: none" placeholder="验证码">
                             </div>
                             <div class="c-annui" style="margin-top: 60px">
-                                <input type="button" value="登录">
+                                <input type="submit" value="登录">
                             </div>
                             <div class="c-mei">
                                 没有账号？<a href="zhuce.html">立即注册>></a>
@@ -158,7 +178,7 @@
                                 <span class="c-wangji"><a href="#" style="color:#3e7fe1;">忘记密码?</a></span>
                             </div>
                             <div class="c-annui">
-                                <input type="button" value="登录">
+                                <input type="submit" value="登录">
                             </div>
                             <div class="c-mei">
                                 没有账号？<a href="zhuce.html">立即注册>></a>
@@ -172,6 +192,90 @@
                             个人登录
                         </div>
                         <div class="c-gr">
+                            企业登录
+                        </div>
+                    </div>
+                </div>
+                <div class="c-dlk1">
+                    <div class="butouming1" style="display: block">
+                        <div class="c-dlt1">
+                            <div class="dlfs1">
+                                短信密码登录
+                            </div>
+                            <div class="dlfs1 c-active">
+                                账号密码登录
+                            </div>
+                        </div>
+                        <form action="" id="form21" >
+                            <div class="c-zhanghao1">
+                                <input type="text" style="background-color: transparent; box-shadow: none" placeholder="账号">
+                                <img src="img/c-3.png" alt="">
+                            </div>
+                            <div class="c-mima1">
+                                <input type="password" style="background-color: transparent; box-shadow: none" placeholder="密码">
+                                <img src="img/c-4.png" alt="">
+                            </div>
+                            <div class="c-wj1">
+                                <input type="checkbox">
+                                <span class="c-zidong1">7天内自动登录</span>
+                                <span class="c-wangji1"><a href="#" style="color:#F0F0F0;">忘记密码?</a></span>
+                            </div>
+                            <div class="c-annui1">
+                                <input type="submit" value="登录">
+                            </div>
+                            <div class="c-mei1">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+                        <form action="" id="form121" style="display: none">
+                            <div class="c-zhanghao1">
+                                <input type="text" style="width: 155px;background-color: transparent; box-shadow: none" placeholder="手机号">
+                                <input type="button" value="获取验证码" style="width:90px;height: 29px;text-align: center;line-height: 29px;font-family: 微软雅黑;color: #FEFEFE;float: right;margin-top: 9px;border-radius: 10px;background: #919193">
+                            </div>
+                            <div class="c-mima1">
+                                <input type="password" style="background-color: transparent; box-shadow: none" placeholder="验证码">
+                            </div>
+                            <div class="c-annui1" style="margin-top: 32px">
+                                <input type="submit" value="登录">
+                            </div>
+                            <div class="c-mei1">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+
+                        <div class="c-dly1" style="width: 356px;height:356px;position: absolute;left: 0;top:0;z-index: -1"></div>
+                    </div >
+                    <div class="c-qiye1" style="display: none">
+                        <div class="c-lanzi1">
+                            在线获客接单、累积信用额度，快来加入吧！
+                        </div>
+                        <form action="" id="form11">
+                            <div class="c-zhanghao1">
+                                <input type="text" style="background-color: transparent; box-shadow: none" placeholder="企业代码">
+                            </div>
+                            <div class="c-mima1">
+                                <input type="password" style="background-color: transparent; box-shadow: none;"placeholder="密码">
+                            </div>
+                            <div class="c-wj1">
+                                <input type="checkbox">
+                                <span class="c-zidong1" style="color: #000">7天内自动登录</span>
+                                <span class="c-wangji1"><a href="#" style="color:#3e7fe1;">忘记密码?</a></span>
+                            </div>
+                            <div class="c-annui1">
+                                <input type="submit" value="登录">
+                            </div>
+                            <div class="c-mei1">
+                                没有账号？<a href="zhuce.html">立即注册>></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="c-geren1">
+                        <div class="c-touming1">
+                        </div>
+                        <div class="c-gr1 c-active1">
+                            个人登录
+                        </div>
+                        <div class="c-gr1">
                             企业登录
                         </div>
                     </div>
@@ -212,27 +316,23 @@
                 </div>
                 <form action="" id="form-y2">
                     <div class="c-y-zhanghao">
-                        <span>手机号</span>
-                        <input type="text" style="background-color: transparent; box-shadow: none;width: 3.4rem">
+                        <input type="text" style="background-color: transparent; box-shadow: none;width: 4.4rem" placeholder="手机号">
                         <input type="button" class="c-sj" value="获取验证码">
                     </div>
                     <div class="c-y-mima">
-                        <span>密码</span>
-                        <input type="password" style="background-color: transparent; box-shadow: none">
+                        <input type="password" style="background-color: transparent; box-shadow: none" placeholder="验证码">
                     </div>
                     <div class="c-y-annui">
-                        <input type="button" value="登录">
+                        <input type="submit" value="登录">
                     </div>
                 </form>
                 <form action="" id="form-y" style="display: none">
                     <div class="c-y-zhanghao">
-                        <span>账号</span>
-                        <input type="text" style="background-color: transparent; box-shadow: none">
+                        <input type="text" style="background-color: transparent; box-shadow: none" placeholder="账号">
                         <img src="img/c-12.png" alt="">
                     </div>
                     <div class="c-y-mima">
-                        <span>密码</span>
-                        <input type="password" style="background-color: transparent; box-shadow: none">
+                        <input type="password" style="background-color: transparent; box-shadow: none" placeholder="密码">
                         <img src="img/c-13.png" alt="">
                     </div>
                     <div class="c-y-wj">
@@ -241,7 +341,7 @@
                         <span class="c-y-wangji"><a href="#" >忘记密码?</a></span>
                     </div>
                     <div class="c-y-annui">
-                        <input type="button" value="登录">
+                        <input type="submit" value="登录">
                     </div>
                     <div class="c-y-mei">
                         <a href="#" id="c-y-qiye">登录企业账户</a>
@@ -258,13 +358,11 @@
                 </div>
                 <form action="" id="form-y1">
                     <div class="c-y-zhanghao">
-                        <span>企业代码</span>
-                        <input type="text" style="background-color: transparent; box-shadow: none">
+                        <input type="text" style="background-color: transparent; box-shadow: none" placeholder="企业代码">
 
                     </div>
                     <div class="c-y-mima">
-                        <span>密码</span>
-                        <input type="password" style="width: 4.5rem;background-color: transparent; box-shadow: none;margin-left: 0.7rem">
+                        <input type="password" style="width: 4.5rem;background-color: transparent; box-shadow: none" placeholder="密码">
 
                     </div>
                     <div class="c-y-wj">
@@ -273,7 +371,7 @@
                         <span class="c-y-wangji"><a href="#" >忘记密码?</a></span>
                     </div>
                     <div class="c-y-annui">
-                        <input type="button" value="登录">
+                        <input type="submit" value="登录">
                     </div>
                     <div class="c-y-mei">
                         <a href="#" id="c-y-gerem">登录个人账户</a>
@@ -302,6 +400,19 @@
             }
         })
     })
+    $(".dlfs1").each(function (i,v) {
+        $(this).click(function () {
+            $(this).addClass("c-active").siblings().removeClass("c-active")
+            if(i==0){
+                $("#form21").hide();
+                $("#form121").show()
+            }
+            if(i==1){
+                $("#form21").show();
+                $("#form121").hide()
+            }
+        })
+    })
     $(".c-gr").each(function(i,v){
         $(this).on("click",function () {
             $(this).addClass("c-active1").siblings().removeClass("c-active1")
@@ -314,6 +425,21 @@
                 $(".c-beijing").css({background:"url('img/c-5.png')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
                 $(".butouming").hide();
                 $(".c-qiye").show()
+            }
+        })
+    })
+    $(".c-gr1").each(function(i,v){
+        $(this).on("click",function () {
+            $(this).addClass("c-active1").siblings().removeClass("c-active1")
+            if(i==0){
+                $(".c-beijing").css({background:"url('img/c-1.jpg')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
+                $(".butouming1").show();
+                $(".c-qiye1").hide()
+            }
+            if(i==1){
+                $(".c-beijing").css({background:"url('img/c-5.png')",backgroundSize: "cover",backgroundPosition:"center center",backgroundRepeat: "no-repeat"})
+                $(".butouming1").hide();
+                $(".c-qiye1").show()
             }
         })
     })

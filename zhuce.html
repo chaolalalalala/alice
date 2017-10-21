@@ -39,6 +39,28 @@
                 margin-left: 50px;
             }
         }
+        @media screen and (max-width: 1366px) {
+            .c-gg{
+                height:64px;
+            }
+            .c-zck{
+                display: none;
+            }
+            .c-zck1{
+                display: block;
+            }
+        }
+        @media screen and (min-width: 1367px) {
+            .c-gg{
+                height:90px;
+            }
+            .c-zck{
+                display: block;
+            }
+            .c-zck1{
+                display: none;
+            }
+        }
         .container-fluid{
             height: 100%;
             padding: 0;
@@ -89,23 +111,19 @@
                 <div class="c-zck">
                     <form action="" id="form">
                         <div class="d-kuang">
-                            <span>手机号</span>
-                            <input type="text" style="box-shadow: none;">
+                            <input type="text" style="box-shadow: none;" placeholder="手机号">
                         </div>
                         <div class="d-kuang">
-                            <span>设置密码</span>
-                            <input type="password" style="box-shadow: none;">
+                            <input type="password" style="box-shadow: none;" placeholder="设置密码">
                             <img src="img/c-8.png" alt="" class="c-mima">
                         </div>
                         <div class="d-kuang">
-                            <span>验证码</span>
-                            <input type="text" style="box-shadow: none;" class="c-yanz">
-                            <input type="button" id="code" style="box-shadow: none;top:6px;left:195px;">
+                            <input type="text" style="box-shadow: none;" class="c-yanz" placeholder="验证码">
+                            <input type="button" id="code" style="box-shadow: none;top:5px;left:195px;">
                             <img src="img/c-9.png" alt="" class="c-shuaxin">
                         </div>
                         <div class="d-kuang" style="margin-bottom: 8px">
-                            <span>手机验证码</span>
-                            <input type="text" style="box-shadow: none;" class="c-sjyz">
+                            <input type="text" style="box-shadow: none;" class="c-sjyz" placeholder="手机验证码">
                             <input type="button" class="c-sj" value="发送动态验证码">
                         </div>
                         <div class="c-yd">
@@ -113,7 +131,7 @@
                             已阅读并同意<箱讯网服务协议>
                         </div>
                         <div class="c-annui">
-                            <input type="button" value="注册">
+                            <input type="submit" value="注册">
                         </div>
                         <div class="c-lanzi">
                             <span class="c-yiyou">已有账号？去登陆</span>
@@ -122,6 +140,39 @@
                         </div>
                     </form>
                     <div class="touming" style="position: absolute;left: 0;top: 0;width: 380px;height:396px;"></div>
+                </div>
+                <div class="c-zck1">
+                    <form action="" id="form21">
+                        <div class="d-kuang1">
+                            <input type="text" style="box-shadow: none;" placeholder="手机号">
+                        </div>
+                        <div class="d-kuang1">
+                            <input type="password" style="box-shadow: none;" placeholder="设置密码">
+                            <img src="img/c-8.png" alt="" class="c-mima1">
+                        </div>
+                        <div class="d-kuang1">
+                            <input type="text" style="box-shadow: none; width: 70px" class="c-yanz1" placeholder="验证码" >
+                            <input type="button" id="code21" style="box-shadow: none;top:3px;left:130px;" >
+                            <img src="img/c-9.png" alt="" class="c-shuaxin1">
+                        </div>
+                        <div class="d-kuang1" style="margin-bottom: 8px">
+                            <input type="text" style="box-shadow: none;" class="c-sjyz1" placeholder="手机验证码">
+                            <input type="button" class="c-sj1" value="发送动态验证码">
+                        </div>
+                        <div class="c-yd1">
+                            <input type="checkbox" style="margin: 0">
+                            已阅读并同意<箱讯网服务协议>
+                        </div>
+                        <div class="c-annui1">
+                            <input type="submit" value="注册">
+                        </div>
+                        <div class="c-lanzi1">
+                            <span class="c-yiyou1">已有账号？去登陆</span>
+                            <img src="img/c-10.png" alt="" class="c-yjt1">
+                            <span class="c-zc1"><a href="#">注册企业用户</a></span>
+                        </div>
+                    </form>
+                    <div class="touming1" style="position: absolute;left: 0;top: 0;width: 272px;height:283px;"></div>
                 </div>
                 <div class="c-gg">
                     <div class="c-g1">
@@ -150,26 +201,22 @@
                 <div class="c-y-zck">
                     <form action="" id="form-y">
                         <div class="d-y-kuang">
-                            <span>手机号</span>
-                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0">
+                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0" placeholder="手机号">
                         </div>
                         <div class="d-y-kuang">
-                            <span>设置密码</span>
-                            <input type="password" style="box-shadow: none;outline: none;background-color: transparent;border:0">
+                            <input type="password" style="box-shadow: none;outline: none;background-color: transparent;border:0" placeholder="设置密码">
                         </div>
                         <div class="d-y-kuang">
-                            <span>验证码</span>
-                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0" class="c-y-yanz">
+                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0" class="c-y-yanz" placeholder="验证码">
                             <input type="button" id="code-y" style="box-shadow: none;top:0.06rem;left:4.1rem;">
                             <img src="img/c-9.png" alt="" class="c-y-shuaxin">
                         </div>
                         <div class="d-y-kuang" style="margin-bottom: 0.08rem">
-                            <span>手机验证码</span>
-                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0" class="c-y-sjyz">
+                            <input type="text" style="box-shadow: none;outline: none;background-color: transparent;border:0" class="c-y-sjyz" placeholder="手机验证码">
                             <input type="button" class="c-sj" value="发送动态验证码">
                         </div>
                         <div class="c-y-annui">
-                            <input type="button" value="注册">
+                            <input type="submit" value="注册">
                         </div>
                     </form>
                     <div class="c-y-m">
@@ -187,7 +234,8 @@
 //    验证码
     function change(){
     var code=$("#code");
-        var code1=$("#code-y")
+        var code1=$("#code-y");
+        var code2=$("#code21")
     // 验证码组成库
     var arrays=new Array(
     '1','2','3','4','5','6','7','8','9','0',
@@ -207,20 +255,25 @@
     // 验证码添加到input里
     code.val(codes);
         code1.val(codes);
+        code2.val(codes)
     }
-window.onload=function () {
-    change()
-}
+
     change();
 $("#code").on("click",function () {
         change();
     })
+$("#code21").on("click",function () {
+    change();
+})
 $("#code-y").on("click",function () {
         change();
     })
     $(".c-y-shuaxin").on("click",function(){
         change();
     })
+$(".c-shuaxin1").on("click",function(){
+    change();
+})
     $(".c-shuaxin").click(change)
     $(".c-y-toubu img").on("click",function () {
         window.history.go(-1);
